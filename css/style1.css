@@ -40,7 +40,7 @@ h1{
 	margin-top: 5px;
 	margin-left: 16px;
 }
-p{
+p {
 	font-family: 'Indie Flower', cursive;
 }
 
@@ -68,12 +68,7 @@ ul a:hover{
 	color:green;
 }
 
-#imagepos{
-	width: 1000px;
-	height: 400px;
-	margin-top: 150px;
-	margin-left: 90px;
-}
+
 
 footer{
 	
