@@ -6,6 +6,8 @@ body{
 h2{
 	color: red;
 }
+
+
 li{	
 
 	display: inline;
@@ -16,28 +18,16 @@ li{
 	
 }
 
-header{
-
-}
-
-.top{
-	margin-top: 100px;
-}
-
-}
-
-.first img{
-
-	height: 300px;
-	width:300px;
-	margin-right:  10px;
-	margin-top: 100	px;
-
-}
-h1{
-	font-size: 40px;
+header {
+	font-size: 20px;
 	color: black;
-	margin-top: 5px;
+}
+
+
+h1{
+	font-size: 20px;
+	color: black;
+	margin-top: 20px;
 	margin-left: 16px;
 }
 p {
@@ -120,4 +110,11 @@ table, th, td{
     color: white;
 }
 
-.
+#imagepos{
+	width: 100%;
+}
+
+.football{
+
+	margin-top: 2px;
+}

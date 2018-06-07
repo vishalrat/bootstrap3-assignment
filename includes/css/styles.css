@@ -9,7 +9,10 @@ Notes:	 Hand coded for Ude my.com
 
 */
 
-
+body{
+   font-family: sans-serif;
+   
+}
 /* --------------------------------------
    Layout
    -------------------------------------- */
@@ -75,13 +78,54 @@ Notes:	 Hand coded for Ude my.com
    margin: 0 20px 10px 0;
 }
 
+
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+footer{
+   
+   background-color: grey;
+   width:100%;
+   
+}
+
+
+p {
+   font-family: 'Indie Flower', cursive;
+}
+
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
-	
+   
 }
 
 /* Landscape phone to portrait tablet */
@@ -109,12 +153,12 @@ Notes:	 Hand coded for Ude my.com
 .carousel-caption h4{
    font-size: 22px;
 }
-	
+   
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-	#myCarousel .item{ height: 500px;
+   #myCarousel .item{ height: 500px;
 
 }
 
